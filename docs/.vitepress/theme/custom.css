@@ -1,0 +1,522 @@
+/* ============================================
+   HairVits — Editorial Theme
+   Inspired by Vogue, Harper's Bazaar
+   Serif headers · Sans-serif body · Restrained palette
+   ============================================ */
+
+:root {
+  /* Palette */
+  --hv-black: #1a1a1a;
+  --hv-dark: #2c2c2c;
+  --hv-mid: #6b6b6b;
+  --hv-light: #a3a3a3;
+  --hv-border: #e0ddd8;
+  --hv-cream: #f8f6f2;
+  --hv-white: #ffffff;
+  --hv-accent: #8b6914;
+  --hv-accent-light: #c4a44a;
+
+  /* Typography */
+  --hv-serif: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+  --hv-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* VitePress overrides */
+  --vp-c-brand-1: var(--hv-black);
+  --vp-c-brand-2: var(--hv-dark);
+  --vp-c-brand-3: var(--hv-mid);
+  --vp-c-brand-soft: var(--hv-cream);
+  --vp-c-text-1: var(--hv-black);
+  --vp-c-text-2: var(--hv-dark);
+  --vp-c-text-3: var(--hv-mid);
+  --vp-c-bg: var(--hv-white);
+  --vp-c-bg-soft: var(--hv-cream);
+  --vp-c-bg-alt: var(--hv-cream);
+  --vp-font-family-base: var(--hv-sans);
+  --vp-font-family-mono: 'SF Mono', 'Fira Code', monospace;
+  --vp-nav-height: 72px;
+  --vp-sidebar-width: 0px;
+  --vp-home-hero-name-color: var(--hv-black);
+}
+
+/* ---- Global ---- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--hv-sans);
+  color: var(--hv-black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- Typography ---- */
+
+h1, h2, h3, h4 {
+  font-family: var(--hv-serif) !important;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.vp-doc h1 {
+  font-size: 2.75rem;
+  font-weight: 600;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.75rem;
+  border-top: none;
+  padding-top: 0;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--hv-border);
+  padding-bottom: 0.5rem;
+}
+
+.vp-doc h3 {
+  font-size: 1.25rem;
+}
+
+.vp-doc p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--hv-dark);
+}
+
+.vp-doc a {
+  color: var(--hv-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.vp-doc a:hover {
+  color: var(--hv-accent-light);
+}
+
+/* ---- Navigation ---- */
+
+.VPNav {
+  border-bottom: 1px solid var(--hv-border) !important;
+  background: var(--hv-white) !important;
+}
+
+.VPNavBar .title {
+  font-family: var(--hv-serif) !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink {
+  font-family: var(--hv-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ---- Footer ---- */
+
+.VPFooter {
+  border-top: 1px solid var(--hv-border) !important;
+  background: var(--hv-cream) !important;
+}
+
+.VPFooter .message,
+.VPFooter .copyright {
+  font-size: 0.8125rem;
+  color: var(--hv-mid);
+}
+
+/* ---- Content container ---- */
+
+.vp-doc .container {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+/* ---- Article meta ---- */
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--hv-border);
+  font-size: 0.8125rem;
+  color: var(--hv-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.article-meta .category {
+  color: var(--hv-accent);
+}
+
+.article-meta .separator {
+  color: var(--hv-border);
+}
+
+/* ---- Lead paragraph ---- */
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--hv-dark);
+  font-family: var(--hv-serif);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+/* ---- Blockquotes ---- */
+
+.vp-doc blockquote {
+  border-left: 3px solid var(--hv-accent);
+  background: var(--hv-cream);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  font-family: var(--hv-serif);
+  font-style: italic;
+  font-size: 1.125rem;
+  color: var(--hv-dark);
+}
+
+/* ---- Images in articles ---- */
+
+.vp-doc img {
+  border-radius: 2px;
+  margin: 2rem 0;
+}
+
+/* ---- Section index pages ---- */
+
+.section-header {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  border-bottom: 1px solid var(--hv-border);
+  margin-bottom: 3rem;
+}
+
+.section-header h1 {
+  font-family: var(--hv-serif);
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.section-header .subtitle {
+  font-size: 1.0625rem;
+  color: var(--hv-mid);
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ---- Card grid ---- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+/* ---- Hero section (home) ---- */
+
+.hero-editorial {
+  text-align: center;
+  padding: 6rem 1.5rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-editorial .overline {
+  font-family: var(--hv-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--hv-accent);
+  margin-bottom: 1.5rem;
+}
+
+.hero-editorial h1 {
+  font-family: var(--hv-serif);
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--hv-black);
+}
+
+.hero-editorial .tagline {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--hv-mid);
+  max-width: 580px;
+  margin: 0 auto 2.5rem;
+}
+
+.hero-editorial .divider {
+  width: 60px;
+  height: 1px;
+  background: var(--hv-accent);
+  margin: 0 auto;
+}
+
+/* ---- Home sections ---- */
+
+.home-section {
+  padding: 4rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.home-section .section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--hv-border);
+  padding-bottom: 1rem;
+}
+
+.home-section .section-title h2 {
+  font-family: var(--hv-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.home-section .section-title a {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--hv-accent);
+  text-decoration: none;
+}
+
+.home-section .section-title a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Featured article (large card) ---- */
+
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--hv-border);
+  margin-bottom: 3rem;
+}
+
+.featured-card .featured-image {
+  aspect-ratio: 4/3;
+  background: var(--hv-cream);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--hv-light);
+  font-size: 0.875rem;
+}
+
+.featured-card .featured-content .overline {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--hv-accent);
+  margin-bottom: 0.75rem;
+}
+
+.featured-card .featured-content h3 {
+  font-family: var(--hv-serif);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.featured-card .featured-content h3 a {
+  color: var(--hv-black);
+  text-decoration: none;
+}
+
+.featured-card .featured-content h3 a:hover {
+  color: var(--hv-accent);
+}
+
+.featured-card .featured-content p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--hv-mid);
+  margin-bottom: 1rem;
+}
+
+.featured-card .featured-content .byline {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--hv-light);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+  .hero-editorial h1 {
+    font-size: 2.25rem;
+  }
+
+  .section-header h1 {
+    font-size: 2.25rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .featured-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .vp-doc h1 {
+    font-size: 2rem;
+  }
+}
+
+/* ---- Hide default VitePress home elements ---- */
+
+.VPHome .VPHero,
+.VPHome .VPFeatures {
+  display: none;
+}
+
+/* Ensure our custom content shows */
+.VPContent.is-home {
+  padding: 0 !important;
+}
+
+/* Remove sidebar spacing on all pages */
+.VPContent:not(.is-home) {
+  padding-left: 0 !important;
+}
+
+.VPDoc .container {
+  max-width: 740px !important;
+  margin: 0 auto !important;
+}
+
+.VPDoc:not(.has-aside) .content-container {
+  max-width: 740px !important;
+}
+
+/* Article page header styling */
+.vp-doc .article-header {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--hv-border);
+}
+
+.vp-doc .article-header h1 {
+  font-size: 2.75rem;
+  max-width: 680px;
+  margin: 0 auto 1rem;
+}
+
+/* Verdict / rating boxes */
+.verdict-box {
+  background: var(--hv-cream);
+  border: 1px solid var(--hv-border);
+  border-radius: 2px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+}
+
+.verdict-box h4 {
+  font-family: var(--hv-sans) !important;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--hv-accent);
+  margin-bottom: 0.75rem;
+}
+
+.verdict-box .score {
+  font-family: var(--hv-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--hv-black);
+  margin-bottom: 0.5rem;
+}
+
+.verdict-box p {
+  font-size: 0.9375rem;
+  color: var(--hv-mid);
+  line-height: 1.6;
+}
+
+/* Pros and Cons */
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.pros-cons .pros,
+.pros-cons .cons {
+  padding: 1.25rem 1.5rem;
+  background: var(--hv-cream);
+  border-radius: 2px;
+}
+
+.pros-cons h4 {
+  font-family: var(--hv-sans) !important;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.pros h4 { color: #4a7c59; }
+.cons h4 { color: #8b4049; }
+
+.pros-cons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pros-cons li {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  padding: 0.25rem 0;
+  color: var(--hv-dark);
+}
+
+@media (max-width: 640px) {
+  .pros-cons {
+    grid-template-columns: 1fr;
+  }
+}
