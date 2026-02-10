@@ -1,20 +1,11 @@
 ---
 aside: false
+title: "Viviscal vs. Nutrafol: Head-to-Head Comparison"
+category: Comparison
+date: December 2025
+author: Elena Marchetti
+lead: "They're the two most talked-about hair supplements in the market. But how do Viviscal and Nutrafol actually compare when you look beyond the marketing?"
 ---
-
-<div class="article-meta">
-  <span class="category">Comparison</span>
-  <span class="separator">|</span>
-  <span>December 2025</span>
-  <span class="separator">|</span>
-  <span>By Elena Marchetti</span>
-</div>
-
-# Viviscal vs. Nutrafol: Head-to-Head Comparison
-
-<p class="lead">
-They're the two most talked-about hair supplements in the market. But how do Viviscal and Nutrafol actually compare when you look beyond the marketing?
-</p>
 
 ## The Contenders
 

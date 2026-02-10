@@ -1,20 +1,11 @@
 ---
 aside: false
+title: "The Gut-Hair Axis: Emerging Evidence"
+category: Deep Dive
+date: November 2025
+author: Dr. Priya Patel
+lead: "The gut microbiome influences far more than digestion. A growing body of research suggests that the trillions of microorganisms in your intestines may play a meaningful role in hair follicle health and cycling."
 ---
-
-<div class="article-meta">
-  <span class="category">Deep Dive</span>
-  <span class="separator">|</span>
-  <span>November 2025</span>
-  <span class="separator">|</span>
-  <span>By Dr. Priya Patel</span>
-</div>
-
-# The Gut-Hair Axis: Emerging Evidence
-
-<p class="lead">
-The gut microbiome influences far more than digestion. A growing body of research suggests that the trillions of microorganisms in your intestines may play a meaningful role in hair follicle health and cycling.
-</p>
 
 ## A New Frontier
 

@@ -1,20 +1,11 @@
 ---
 aside: false
+title: "The 5 Best Biotin Supplements of 2026, Reviewed"
+category: Roundup
+date: January 2026
+author: HairVits Editors
+lead: "We purchased, tested, and compared twelve of the most popular biotin supplements available in the UK and US. After three months of analysis — including third-party lab verification — five earned our recommendation."
 ---
-
-<div class="article-meta">
-  <span class="category">Roundup</span>
-  <span class="separator">|</span>
-  <span>January 2026</span>
-  <span class="separator">|</span>
-  <span>By HairVits Editors</span>
-</div>
-
-# The 5 Best Biotin Supplements of 2026, Reviewed
-
-<p class="lead">
-We purchased, tested, and compared twelve of the most popular biotin supplements available in the UK and US. After three months of analysis — including third-party lab verification — five earned our recommendation.
-</p>
 
 ## Why Biotin?
 

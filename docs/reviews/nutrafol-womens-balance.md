@@ -1,20 +1,11 @@
 ---
 aside: false
+title: "Nutrafol Women's Balance: A Six-Month Verdict"
+category: Review
+date: January 2026
+author: Dr. Sarah Chen
+lead: "Nutrafol is one of the most recommended hair growth supplements among dermatologists. We put the Women's Balance formula — designed for women over 45 — through a comprehensive six-month evaluation."
 ---
-
-<div class="article-meta">
-  <span class="category">Review</span>
-  <span class="separator">|</span>
-  <span>January 2026</span>
-  <span class="separator">|</span>
-  <span>By Dr. Sarah Chen</span>
-</div>
-
-# Nutrafol Women's Balance: A Six-Month Verdict
-
-<p class="lead">
-Nutrafol is one of the most recommended hair growth supplements among dermatologists. We put the Women's Balance formula — designed for women over 45 — through a comprehensive six-month evaluation.
-</p>
 
 ## What Is Nutrafol Women's Balance?
 
