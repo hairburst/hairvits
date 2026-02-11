@@ -22,9 +22,9 @@
         </div>
         <div class="featured-content">
           <div class="overline">Editor's Pick</div>
-          <h3><a href="/reviews/best-biotin-supplements">The 5 Best Biotin Supplements of 2026, Reviewed</a></h3>
-          <p>We tested the most popular biotin supplements on the market for potency, purity, and value. Here's what we found after three months of rigorous analysis.</p>
-          <div class="byline">By the HairVits Editorial Team &middot; January 2026</div>
+          <h3><a href="/reviews/best-hair-growth-supplements-2026">Best Hair Growth Supplements of 2026: An Evidence-Based Review</a></h3>
+          <p>We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood decisively above the rest.</p>
+          <div class="byline">By HairVits Editorial &middot; February 2026</div>
         </div>
       </div>
     </div>
@@ -36,6 +36,15 @@
         <a href="/reviews/">View All</a>
       </div>
       <div class="card-grid" style="padding: 0;">
+        <ArticleCard
+          title="Best Hair Growth Supplements of 2026"
+          href="/reviews/best-hair-growth-supplements-2026"
+          category="Roundup"
+          excerpt="Six months of testing. Twelve products. One clear winner. Our most comprehensive hair supplement evaluation yet."
+          author="HairVits Editorial"
+          date="Feb 2026"
+        />
+
         <ArticleCard
           title="Nutrafol Women's Balance: A Six-Month Verdict"
           href="/reviews/nutrafol-womens-balance"
