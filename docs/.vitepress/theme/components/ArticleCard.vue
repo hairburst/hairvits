@@ -12,7 +12,7 @@ const props = defineProps<{
   image?: string
 }>()
 
-const displayDate = computed(() => formatDate(props.date))
+const displayDate = computed(() => formatDate(props.date, 'short'))
 </script>
 
 <template>

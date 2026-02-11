@@ -43,7 +43,7 @@ const beauty = computed(() => latestBySection('beauty', 3))
           <div class="overline">Editor's Pick</div>
           <h3><a :href="featured.href">{{ featured.title }}</a></h3>
           <p>{{ featured.lead }}</p>
-          <div class="byline">By {{ featured.author }} &middot; {{ formatDate(featured.date) }}</div>
+          <div class="byline">By {{ featured.author }} &middot; {{ formatDate(featured.date, 'short') }}</div>
         </div>
       </div>
     </div>
