@@ -4,11 +4,11 @@ category: Comparison
 date: 2026-01-01
 author: HairVits Editorial
 lead: We purchased, tested, and compared twelve of the most popular hair supplements available in the UK. After three months of analysis, five earned our recommendation.
+image: /img/HairVits_Ad_TopSupplements_Square.jpg
 aside: false
 ---
 
 ![Hair Vits Reviews](/img/HairVits_Logo_Light.jpg "Hair Vits Reviews")
-
 
 # Top 5 Hair Supplements That Actually Work in 2026
 
