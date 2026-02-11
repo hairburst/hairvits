@@ -4,7 +4,7 @@ category: Deep Dive
 date: 2025-11-01
 author: Dr. Priya Patel
 lead: The gut microbiome influences far more than digestion. A growing body of research suggests that the trillions of microorganisms in your intestines may play a meaningful role in hair follicle health and cycling.
-image: /img/gut-hair-axis.jpg
+image: /img/Screenshot 2026-02-11 at 16.10.42.png
 aside: false
 ---
 
