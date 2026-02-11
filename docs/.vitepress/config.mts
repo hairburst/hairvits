@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'HairVits',
   description: 'Expert reviews and science-backed insights on hair supplements, beauty, and wellness.',
   cleanUrls: true,
+  appearance: false,
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
