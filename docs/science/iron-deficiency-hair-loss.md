@@ -1,10 +1,11 @@
 ---
-aside: false
-title: "Iron Deficiency and Hair Loss: What the Research Shows"
+title: 'Iron Deficiency and Hair Loss: What the Research Shows'
 category: Research
 date: 2025-12-01
 author: Dr. Sarah Chen
-lead: "Iron deficiency is the most common nutritional deficiency worldwide — and one of the most underdiagnosed causes of hair loss. Here's what the current evidence tells us about the connection."
+lead: Iron deficiency is the most common nutritional deficiency worldwide — and one of the most underdiagnosed causes of hair loss. Here's what the current evidence tells us about the connection.
+image: /img/iron-deficiency-hair-loss.jpg
+aside: false
 ---
 
 ## The Scale of the Problem
@@ -39,7 +40,7 @@ Most laboratories report ferritin as normal above **12-15 ng/mL**, a threshold b
 
 ## Key Research Findings
 
-A 2023 systematic review in the *Journal of the American Academy of Dermatology* analysed 14 studies examining the iron-hair loss relationship. Key findings:
+A 2023 systematic review in the _Journal of the American Academy of Dermatology_ analysed 14 studies examining the iron-hair loss relationship. Key findings:
 
 - **11 of 14 studies** found a statistically significant association between low ferritin and hair loss
 - Women with telogen effluvium had **mean ferritin levels 38% lower** than age-matched controls
@@ -83,6 +84,6 @@ Iron overload is also harmful. Never supplement iron without blood work confirmi
 
 Ferritin is also an acute phase reactant — it rises during inflammation, infection, and liver disease. An apparently normal ferritin in someone with concurrent inflammation may actually mask functional iron deficiency.
 
----
+***
 
-*This article summarises current research and does not constitute medical advice. Consult a healthcare provider for personalised evaluation.*
+_This article summarises current research and does not constitute medical advice. Consult a healthcare provider for personalised evaluation._
