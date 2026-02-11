@@ -6,14 +6,18 @@ defineProps<{
   date?: string
   excerpt?: string
   author?: string
+  image?: string
 }>()
 </script>
 
 <template>
   <article class="article-card">
-    <div class="card-image">
-      <span class="placeholder-label">{{ category || 'Article' }}</span>
-    </div>
+    <a :href="href" class="card-image-link">
+      <div class="card-image">
+        <img v-if="image" :src="image" :alt="title" class="card-img" />
+        <span v-else class="placeholder-label">{{ category || 'Article' }}</span>
+      </div>
+    </a>
     <div class="card-body">
       <span v-if="category" class="card-category">{{ category }}</span>
       <h3 class="card-title">
@@ -35,6 +39,11 @@ defineProps<{
   flex-direction: column;
 }
 
+.card-image-link {
+  text-decoration: none;
+  display: block;
+}
+
 .card-image {
   aspect-ratio: 16/10;
   background: var(--hv-cream);
@@ -44,6 +53,17 @@ defineProps<{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-image-link:hover .card-img {
+  transform: scale(1.03);
 }
 
 .placeholder-label {
