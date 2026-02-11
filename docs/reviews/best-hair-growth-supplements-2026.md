@@ -31,7 +31,7 @@ We consulted published peer-reviewed research for every key ingredient, cross-re
   <p>The most scientifically comprehensive hair supplement available in the UK. A genuinely multi-pathway formula that addresses the root causes of thinning, not just the symptoms.</p>
 </div>
 
-![Hairburst Advanced+ Hair Formula](https://www.hairburst.com/cdn/shop/files/HairvitsPDP1_1200x.png?v=1738677763)
+![Hairburst Advanced+ Hair Formula](/img/hairburst-advanced-plus.jpg?v=1738677763)
 
 [Hairburst Advanced+ Hair Formula](https://www.hairburst.com/products/advanced-hair-formula?variant=55516134113662&selling_plan=710476792190) is not the cheapest supplement on this list, and it is not the simplest. It requires four capsules daily, and the ingredient panel reads more like a clinical research paper than a high-street vitamin label. That is precisely the point.
 
