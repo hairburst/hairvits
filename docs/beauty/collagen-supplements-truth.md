@@ -1,10 +1,11 @@
 ---
-aside: false
-title: "Collagen Supplements: Beauty Staple or Marketing Myth?"
+title: 'Collagen Supplements: Beauty Staple or Marketing Myth?'
 category: Investigation
 date: 2025-11-01
 author: Dr. James Liu
-lead: "Ingestible collagen is a billion-dollar industry built on the promise of better skin, hair, and nails. We examined what the clinical evidence actually supports — and where the claims outrun the science."
+lead: Ingestible collagen is a billion-dollar industry built on the promise of better skin, hair, and nails. We examined what the clinical evidence actually supports — and where the claims outrun the science.
+image: /img/Screenshot 2026-02-11 at 16.11.33.png
+aside: false
 ---
 
 ## The Collagen Promise
@@ -87,6 +88,6 @@ However, if your primary goal is hair health, your money is likely better spent 
 
 The collagen industry has built a compelling brand narrative, but for hair specifically, the evidence doesn't yet justify the premium.
 
----
+***
 
-*This article represents the HairVits editorial team's assessment of current evidence. It is not sponsored content.*
+_This article represents the HairVits editorial team's assessment of current evidence. It is not sponsored content._
