@@ -3,8 +3,8 @@ backend:
   repo: hairburst/hairvits
   branch: main
 
-media_folder: "docs/public/img"
-public_folder: "/img"
+media_folder: /docs/public/img
+public_folder: /img
 
 collections:
   - name: "reviews"
