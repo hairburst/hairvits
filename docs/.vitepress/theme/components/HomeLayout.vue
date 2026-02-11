@@ -1,4 +1,23 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { formatDate } from '../utils/formatDate'
+import type { Article } from '../../../../articles.data'
+
+const props = defineProps<{
+  articles: Article[]
+}>()
+
+const featured = computed(() => props.articles[0])
+
+function latestBySection(section: string, count: number) {
+  return props.articles
+    .filter(a => a.section === section && a !== featured.value)
+    .slice(0, count)
+}
+
+const reviews = computed(() => latestBySection('reviews', 3))
+const science = computed(() => latestBySection('science', 3))
+const beauty = computed(() => latestBySection('beauty', 3))
 </script>
 
 <template>
@@ -15,128 +34,79 @@
     </div>
 
     <!-- Featured Article -->
-    <div class="home-section">
+    <div v-if="featured" class="home-section">
       <div class="featured-card">
         <div class="featured-image">
-          <img src="/img/hairburst-advanced-plus.jpg" alt="Best Hair Growth Supplements of 2026" />
+          <img v-if="featured.image" :src="featured.image" :alt="featured.title" />
         </div>
         <div class="featured-content">
           <div class="overline">Editor's Pick</div>
-          <h3><a href="/reviews/best-hair-growth-supplements-2026">Best Hair Growth Supplements of 2026: An Evidence-Based Review</a></h3>
-          <p>We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood decisively above the rest.</p>
-          <div class="byline">By HairVits Editorial &middot; February 2026</div>
+          <h3><a :href="featured.href">{{ featured.title }}</a></h3>
+          <p>{{ featured.lead }}</p>
+          <div class="byline">By {{ featured.author }} &middot; {{ formatDate(featured.date) }}</div>
         </div>
       </div>
     </div>
 
     <!-- Reviews Section -->
-    <div class="home-section">
+    <div v-if="reviews.length" class="home-section">
       <div class="section-title">
         <h2>Latest Reviews</h2>
         <a href="/reviews/">View All</a>
       </div>
       <div class="card-grid" style="padding: 0;">
         <ArticleCard
-          title="Best Hair Growth Supplements of 2026"
-          href="/reviews/best-hair-growth-supplements-2026"
-          category="Roundup"
-          image="/img/hairburst-advanced-plus.jpg"
-          excerpt="Six months of testing. Twelve products. One clear winner. Our most comprehensive hair supplement evaluation yet."
-          author="HairVits Editorial"
-          date="Feb 2026"
-        />
-
-        <ArticleCard
-          title="Nutrafol Women's Balance: A Six-Month Verdict"
-          href="/reviews/nutrafol-womens-balance"
-          category="Review"
-          excerpt="Does this dermatologist-favourite hair growth supplement live up to its clinical claims? Our comprehensive trial."
-          author="Dr. Sarah Chen"
-          date="Jan 2026"
-        />
-        <ArticleCard
-          title="Viviscal vs. Nutrafol: Head-to-Head Comparison"
-          href="/reviews/viviscal-vs-nutrafol"
-          category="Comparison"
-          excerpt="Two of the biggest names in hair supplements, compared across efficacy, ingredients, side effects, and price."
-          author="Elena Marchetti"
-          date="Dec 2025"
-        />
-        <ArticleCard
-          title="The Best Biotin Supplements of 2026"
-          href="/reviews/best-biotin-supplements"
-          category="Roundup"
-          excerpt="We tested twelve biotin supplements for potency, purity, and bioavailability. Five made the cut."
-          author="HairVits Editors"
-          date="Jan 2026"
+          v-for="article in reviews"
+          :key="article.href"
+          :title="article.title"
+          :href="article.href"
+          :category="article.category"
+          :image="article.image"
+          :excerpt="article.lead"
+          :author="article.author"
+          :date="formatDate(article.date)"
         />
       </div>
     </div>
 
     <!-- Science Section -->
-    <div class="home-section">
+    <div v-if="science.length" class="home-section">
       <div class="section-title">
         <h2>Science &amp; Research</h2>
         <a href="/science/">View All</a>
       </div>
       <div class="card-grid" style="padding: 0;">
         <ArticleCard
-          title="How Biotin Actually Works: A Molecular Primer"
-          href="/science/how-biotin-works"
-          category="Explainer"
-          excerpt="Biotin is the most popular hair supplement ingredient, but what does the science actually say about its mechanism?"
-          author="Dr. James Liu"
-          date="Jan 2026"
-        />
-        <ArticleCard
-          title="Iron Deficiency and Hair Loss: What the Research Shows"
-          href="/science/iron-deficiency-hair-loss"
-          category="Research"
-          excerpt="Ferritin levels below 30 ng/mL are linked to telogen effluvium. Here's what that means for your hair."
-          author="Dr. Sarah Chen"
-          date="Dec 2025"
-        />
-        <ArticleCard
-          title="The Gut-Hair Axis: Emerging Evidence"
-          href="/science/gut-hair-axis"
-          category="Deep Dive"
-          excerpt="New research suggests the microbiome plays a significant role in hair follicle cycling and growth."
-          author="Dr. Priya Patel"
-          date="Nov 2025"
+          v-for="article in science"
+          :key="article.href"
+          :title="article.title"
+          :href="article.href"
+          :category="article.category"
+          :image="article.image"
+          :excerpt="article.lead"
+          :author="article.author"
+          :date="formatDate(article.date)"
         />
       </div>
     </div>
 
     <!-- Beauty Section -->
-    <div class="home-section">
+    <div v-if="beauty.length" class="home-section">
       <div class="section-title">
         <h2>Beauty &amp; Wellness</h2>
         <a href="/beauty/">View All</a>
       </div>
       <div class="card-grid" style="padding: 0;">
         <ArticleCard
-          title="The Minimalist Hair Care Routine That Works"
-          href="/beauty/minimalist-hair-routine"
-          category="Guide"
-          excerpt="Dermatologists and stylists agree: less is more. The essential three-step routine for healthier hair."
-          author="Mia Torres"
-          date="Jan 2026"
-        />
-        <ArticleCard
-          title="Scalp Care Is the New Skincare"
-          href="/beauty/scalp-care-guide"
-          category="Trend"
-          excerpt="Why the beauty industry is finally paying attention to scalp health, and what you should actually buy."
-          author="Elena Marchetti"
-          date="Dec 2025"
-        />
-        <ArticleCard
-          title="Collagen Supplements: Beauty Staple or Marketing Myth?"
-          href="/beauty/collagen-supplements-truth"
-          category="Investigation"
-          excerpt="We examined the clinical evidence behind ingestible collagen for hair, skin, and nails."
-          author="Dr. James Liu"
-          date="Nov 2025"
+          v-for="article in beauty"
+          :key="article.href"
+          :title="article.title"
+          :href="article.href"
+          :category="article.category"
+          :image="article.image"
+          :excerpt="article.lead"
+          :author="article.author"
+          :date="formatDate(article.date)"
         />
       </div>
     </div>
@@ -146,14 +116,6 @@
 <style scoped>
 .home-editorial {
   width: 100%;
-}
-
-.placeholder-label {
-  font-family: var(--hv-sans);
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--hv-light);
 }
 
 .featured-image img {

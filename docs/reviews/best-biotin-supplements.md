@@ -2,7 +2,7 @@
 title: Top 5 Hair Supplements That Actually Work in 2026
 category: Comparison
 date: 2026-01-01
-author: Cassie (HairVits Editors)
+author: HairVits Editorial
 lead: We purchased, tested, and compared twelve of the most popular hair supplements available in the UK. After three months of analysis, five earned our recommendation.
 aside: false
 ---

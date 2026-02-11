@@ -2,53 +2,9 @@
 layout: page
 ---
 
-<SectionLayout title="Reviews" subtitle="Independent, evidence-based supplement and product reviews. Every product is tested, every claim is verified.">
-  <ArticleCard
-    title="Nutrafol Women's Balance: A Six-Month Verdict"
-    href="/reviews/nutrafol-womens-balance"
-    category="Review"
-    excerpt="Does this dermatologist-favourite hair growth supplement live up to its clinical claims? Our comprehensive trial."
-    author="Dr. Sarah Chen"
-    date="Jan 2026"
-  />
-  <ArticleCard
-    title="Viviscal vs. Nutrafol: Head-to-Head Comparison"
-    href="/reviews/viviscal-vs-nutrafol"
-    category="Comparison"
-    excerpt="Two of the biggest names in hair supplements, compared across efficacy, ingredients, side effects, and price."
-    author="Elena Marchetti"
-    date="Dec 2025"
-  />
-  <ArticleCard
-    title="The Best Biotin Supplements of 2026"
-    href="/reviews/best-biotin-supplements"
-    category="Roundup"
-    excerpt="We tested twelve biotin supplements for potency, purity, and bioavailability. Five made the cut."
-    author="HairVits Editors"
-    date="Jan 2026"
-  />
-  <ArticleCard
-    title="Hairburst Advanced+ Hair Formula: A 90-Day Review"
-    href="/reviews/test-article"
-    category="Review"
-    excerpt="We tested Hairburst's most advanced supplement for three months. Here's whether the whole-body approach to hair health delivers on its promises."
-    author="HairVits Editorial"
-    date="Feb 2026"
-  />
-  <ArticleCard
-    title="Hairburst Advanced+ Hair Formula Review: The Whole-Body Supplement That Actually Delivers"
-    href="/reviews/hairburst-advanced-plus-review"
-    category="Review"
-    excerpt="We spent 90 days testing Hairburst's most advanced hair supplement — a 22-ingredient formula that tackles the root causes of thinning, not just the symptoms. He"
-    author="HairVits Editorial"
-    date="Feb 2026"
-  />
-  <ArticleCard
-    title="Best Hair Growth Supplements of 2026: An Evidence-Based Review"
-    href="/reviews/best-hair-growth-supplements-2026"
-    category="Roundup"
-    excerpt="We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood decis"
-    author="HairVits Editorial"
-    date="Feb 2026"
-  />
-</SectionLayout>
+<script setup>
+import { data } from '../articles.data'
+const articles = data.filter(a => a.section === 'reviews')
+</script>
+
+<SectionLayout title="Reviews" subtitle="Independent, evidence-based supplement and product reviews. Every product is tested, every claim is verified." :articles="articles" />

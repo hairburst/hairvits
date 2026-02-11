@@ -1,7 +1,11 @@
 <script setup lang="ts">
+import { formatDate } from '../utils/formatDate'
+import type { Article } from '../../../../articles.data'
+
 defineProps<{
   title: string
   subtitle?: string
+  articles?: Article[]
 }>()
 </script>
 
@@ -12,7 +16,18 @@ defineProps<{
       <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
     </div>
     <div class="card-grid">
-      <slot />
+      <ArticleCard
+        v-for="article in articles"
+        :key="article.href"
+        :title="article.title"
+        :href="article.href"
+        :category="article.category"
+        :date="formatDate(article.date)"
+        :excerpt="article.lead"
+        :author="article.author"
+        :image="article.image"
+      />
+      <slot v-if="!articles" />
     </div>
   </div>
 </template>

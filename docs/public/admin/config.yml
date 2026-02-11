@@ -28,7 +28,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Review", "Comparison", "Roundup"], default: "Review" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author", name: "author", widget: "select", options: ["HairVits Editorial", "Dr. Sarah Chen", "Dr. James Liu", "Dr. Priya Patel", "Elena Marchetti", "Mia Torres"] }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }
       - { label: "Hide Sidebar", name: "aside", widget: "hidden", default: false }
@@ -54,7 +54,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Explainer", "Research", "Deep Dive", "Meta-Analysis"], default: "Explainer" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author", name: "author", widget: "select", options: ["HairVits Editorial", "Dr. Sarah Chen", "Dr. James Liu", "Dr. Priya Patel", "Elena Marchetti", "Mia Torres"] }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }
       - { label: "Hide Sidebar", name: "aside", widget: "hidden", default: false }
@@ -81,7 +81,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Guide", "Trend", "Investigation", "Routine", "Ingredient"], default: "Guide" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author", name: "author", widget: "select", options: ["HairVits Editorial", "Dr. Sarah Chen", "Dr. James Liu", "Dr. Priya Patel", "Elena Marchetti", "Mia Torres"] }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }
       - { label: "Hide Sidebar", name: "aside", widget: "hidden", default: false }
