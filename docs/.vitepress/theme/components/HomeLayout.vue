@@ -18,7 +18,7 @@
     <div class="home-section">
       <div class="featured-card">
         <div class="featured-image">
-          <span class="placeholder-label">Featured</span>
+          <img src="/img/hairburst-advanced-plus.jpg" alt="Best Hair Growth Supplements of 2026" />
         </div>
         <div class="featured-content">
           <div class="overline">Editor's Pick</div>
@@ -40,6 +40,7 @@
           title="Best Hair Growth Supplements of 2026"
           href="/reviews/best-hair-growth-supplements-2026"
           category="Roundup"
+          image="/img/hairburst-advanced-plus.jpg"
           excerpt="Six months of testing. Twelve products. One clear winner. Our most comprehensive hair supplement evaluation yet."
           author="HairVits Editorial"
           date="Feb 2026"
@@ -153,5 +154,17 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--hv-light);
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+
+.featured-card:hover .featured-image img {
+  transform: scale(1.02);
 }
 </style>
