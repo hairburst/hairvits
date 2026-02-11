@@ -1,10 +1,11 @@
 ---
-aside: false
-title: "The Gut-Hair Axis: Emerging Evidence"
+title: 'The Gut-Hair Axis: Emerging Evidence'
 category: Deep Dive
 date: 2025-11-01
 author: Dr. Priya Patel
-lead: "The gut microbiome influences far more than digestion. A growing body of research suggests that the trillions of microorganisms in your intestines may play a meaningful role in hair follicle health and cycling."
+lead: The gut microbiome influences far more than digestion. A growing body of research suggests that the trillions of microorganisms in your intestines may play a meaningful role in hair follicle health and cycling.
+image: /img/gut-hair-axis.jpg
+aside: false
 ---
 
 ## A New Frontier
@@ -41,10 +42,10 @@ Gut bacteria participate in the metabolism of hormones, including oestrogen and 
 
 ### Animal Studies
 
-The most striking evidence comes from mouse models. A 2023 study published in *Cell Reports* found that:
+The most striking evidence comes from mouse models. A 2023 study published in _Cell Reports_ found that:
 
 - Germ-free mice (lacking gut bacteria entirely) showed delayed hair follicle cycling
-- Transplanting specific *Lactobacillus* strains restored normal hair cycling
+- Transplanting specific _Lactobacillus_ strains restored normal hair cycling
 - The effect was mediated through short-chain fatty acid production, particularly butyrate
 
 Another study demonstrated that antibiotic-induced dysbiosis led to measurable hair thinning in mice, which was reversible with probiotic supplementation.
@@ -61,8 +62,8 @@ Human evidence is still largely observational:
 
 A handful of small human trials have explored probiotics for hair:
 
-- A 2024 randomised controlled trial (n=68) found that a multi-strain probiotic containing *L. rhamnosus* and *B. longum* reduced hair shedding by 22% compared to placebo over 12 weeks
-- A Korean study reported improved hair density in participants taking *Kimchi*-derived *L. plantarum* for 16 weeks
+- A 2024 randomised controlled trial (n=68) found that a multi-strain probiotic containing _L. rhamnosus_ and _B. longum_ reduced hair shedding by 22% compared to placebo over 12 weeks
+- A Korean study reported improved hair density in participants taking _Kimchi_-derived _L. plantarum_ for 16 weeks
 
 These results are promising but preliminary. Sample sizes are small, and the specific strains, doses, and durations that might be effective remain undefined.
 
@@ -71,16 +72,19 @@ These results are promising but preliminary. Sample sizes are small, and the spe
 The gut-hair axis is a legitimate area of scientific investigation, but it's important to calibrate expectations:
 
 **What's established:**
+
 - Gut health affects nutrient absorption relevant to hair
 - Severe dysbiosis can contribute to hair problems
 - The microbiome modulates systemic inflammation
 
 **What's promising but unproven:**
+
 - Specific probiotic strains can improve hair growth
 - Targeted microbiome interventions could treat hair loss
 - Gut testing can predict hair health outcomes
 
 **What's premature:**
+
 - Marketing supplements as "gut-hair" solutions
 - Recommending specific probiotic protocols for hair loss
 - Replacing conventional hair loss treatments with microbiome interventions
@@ -96,6 +100,6 @@ While the science matures, supporting gut health through diet is a reasonable st
 
 The gut-hair axis represents one of the more exciting frontiers in trichology. It's worth watching, but not yet worth overhauling your supplement routine for.
 
----
+***
 
-*Dr. Priya Patel is a gastroenterologist with a research interest in the microbiome-organ axes. This article has been reviewed by the HairVits Science Review Board.*
+_Dr. Priya Patel is a gastroenterologist with a research interest in the microbiome-organ axes. This article has been reviewed by the HairVits Science Review Board._
