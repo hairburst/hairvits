@@ -4,7 +4,7 @@ category: Explainer
 date: 2026-01-01
 author: Dr. James Liu
 lead: Biotin is the most popular ingredient in hair supplements worldwide. But beyond the marketing claims, what does it actually do at the molecular level — and does supplementation make a difference?
-image: /img/how-biotin-works.jpg
+image: /img/Screenshot 2026-02-11 at 16.07.30.png
 aside: false
 ---
 
