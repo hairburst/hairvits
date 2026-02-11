@@ -43,4 +43,12 @@ layout: page
     author="HairVits Editorial"
     date="Feb 2026"
   />
+  <ArticleCard
+    title="Best Hair Growth Supplements of 2026: An Evidence-Based Review"
+    href="/reviews/best-hair-growth-supplements-2026"
+    category="Roundup"
+    excerpt="We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood decis"
+    author="HairVits Editorial"
+    date="Feb 2026"
+  />
 </SectionLayout>
