@@ -1,10 +1,11 @@
 ---
-aside: false
-title: "The Minimalist Hair Care Routine That Works"
+title: The Minimalist Hair Care Routine That Works
 category: Guide
 date: 2026-01-01
 author: Mia Torres
-lead: "In an industry that profits from complexity, the most effective hair care routine might be the simplest one. Dermatologists and stylists increasingly agree: three steps are enough."
+lead: 'In an industry that profits from complexity, the most effective hair care routine might be the simplest one. Dermatologists and stylists increasingly agree: three steps are enough.'
+image: /img/Screenshot 2026-02-11 at 16.13.36.png
+aside: false
 ---
 
 ## The Problem with More
@@ -24,11 +25,13 @@ After consulting with six dermatologists and four editorial stylists, we've dist
 Choose a **sulphate-free shampoo** with a pH between 4.5 and 5.5 (matching the scalp's natural pH). Apply primarily to the scalp, not the lengths — the scalp is what needs cleansing, and the runoff is sufficient for mid-lengths and ends.
 
 **What to avoid:**
+
 - Sodium lauryl sulphate (SLS) — overly stripping for most people
 - Washing daily unless your scalp genuinely requires it
 - "Clarifying" shampoos more than once a month
 
 **What to look for:**
+
 - Cocamidopropyl betaine or sodium cocoyl isethionate as primary surfactants
 - Scalp-soothing ingredients like niacinamide, piroctone olamine, or zinc pyrithione if you have flaking
 
@@ -47,6 +50,7 @@ Conditioner's job is simple: smooth the hair cuticle, reduce friction, and preve
 A lightweight leave-in with heat protection is the single most impactful product you can add to a basic routine. Heat damage from styling tools is cumulative and largely irreversible in existing hair — prevention is the only effective strategy.
 
 **Look for:**
+
 - Silicone-based heat protectants (dimethicone, cyclomethicone) for blow-drying and flat ironing
 - Minimum SPF or UV filter for sun exposure
 - Lightweight formulas that won't weigh hair down
@@ -72,6 +76,6 @@ Compare that to the $100+ many people spend monthly on multi-step routines with 
 
 Good hair care isn't about having the most products — it's about using the right ones correctly. Cleanse your scalp gently, condition your ends, protect from damage. Everything else is optional.
 
----
+***
 
-*Mia Torres is a beauty editor specialising in evidence-based skincare and hair care.*
+_Mia Torres is a beauty editor specialising in evidence-based skincare and hair care._
