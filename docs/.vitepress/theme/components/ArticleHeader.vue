@@ -15,5 +15,25 @@ const { frontmatter } = useData()
     </div>
 
     <p v-if="frontmatter.lead" class="lead">{{ frontmatter.lead }}</p>
+
+    <div v-if="frontmatter.image" class="featured-image">
+      <img :src="frontmatter.image" :alt="frontmatter.title" />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.featured-image {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+</style>
