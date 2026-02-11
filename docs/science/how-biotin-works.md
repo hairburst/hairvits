@@ -1,10 +1,11 @@
 ---
-aside: false
-title: "How Biotin Actually Works: A Molecular Primer"
+title: 'How Biotin Actually Works: A Molecular Primer'
 category: Explainer
 date: 2026-01-01
 author: Dr. James Liu
-lead: "Biotin is the most popular ingredient in hair supplements worldwide. But beyond the marketing claims, what does it actually do at the molecular level — and does supplementation make a difference?"
+lead: Biotin is the most popular ingredient in hair supplements worldwide. But beyond the marketing claims, what does it actually do at the molecular level — and does supplementation make a difference?
+image: /img/how-biotin-works.jpg
+aside: false
 ---
 
 ## The Basics
@@ -71,6 +72,6 @@ Biotin plays a genuine, well-characterised role in hair biology. Supplementation
 
 The most honest recommendation: if you're concerned about hair health, a blood test to check your biotin status is more informative than simply starting a supplement.
 
----
+***
 
-*Dr. James Liu is a biochemist specialising in micronutrient metabolism. This article has been peer-reviewed by the HairVits Science Review Board.*
+_Dr. James Liu is a biochemist specialising in micronutrient metabolism. This article has been peer-reviewed by the HairVits Science Review Board._
