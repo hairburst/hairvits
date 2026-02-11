@@ -27,4 +27,12 @@ layout: page
     author="HairVits Editors"
     date="Jan 2026"
   />
+  <ArticleCard
+    title="Hairburst Advanced+ Hair Formula: A 90-Day Review"
+    href="/reviews/test-article"
+    category="Review"
+    excerpt="We tested Hairburst's most advanced supplement for three months. Here's whether the whole-body approach to hair health delivers on its promises."
+    author="HairVits Editorial"
+    date="Feb 2026"
+  />
 </SectionLayout>
