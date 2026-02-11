@@ -4,6 +4,7 @@ category: Roundup
 date: 2026-02-01
 author: HairVits Editorial
 lead: We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood above the rest.
+image: /img/hairburst-advanced-plus.jpg
 aside: false
 ---
 
