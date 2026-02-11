@@ -2,7 +2,7 @@
 aside: false
 title: "Scalp Care Is the New Skincare"
 category: Trend
-date: December 2025
+date: 2025-12-01
 author: Elena Marchetti
 lead: "The beauty industry has finally recognised what dermatologists have known for years: healthy hair starts at the scalp. Here's what's driving the trend — and what actually works."
 ---

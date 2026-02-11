@@ -2,7 +2,7 @@
 aside: false
 title: "How Biotin Actually Works: A Molecular Primer"
 category: Explainer
-date: January 2026
+date: 2026-01-01
 author: Dr. James Liu
 lead: "Biotin is the most popular ingredient in hair supplements worldwide. But beyond the marketing claims, what does it actually do at the molecular level — and does supplementation make a difference?"
 ---

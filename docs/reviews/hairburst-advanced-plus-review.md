@@ -1,7 +1,7 @@
 ---
 title: 'Hairburst Advanced+ Hair Formula Review: The Whole-Body Supplement That Actually Delivers'
 category: Review
-date: February 2026
+date: 2026-02-01
 author: HairVits Editorial
 lead: We spent 90 days testing Hairburst's most advanced hair supplement — a 22-ingredient formula that tackles the root causes of thinning, not just the symptoms. Here's our honest verdict.
 aside: false

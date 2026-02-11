@@ -1,5 +1,8 @@
 <script setup lang="ts">
-defineProps<{
+import { computed } from 'vue'
+import { formatDate } from '../utils/formatDate'
+
+const props = defineProps<{
   title: string
   href: string
   category?: string
@@ -8,6 +11,8 @@ defineProps<{
   author?: string
   image?: string
 }>()
+
+const displayDate = computed(() => formatDate(props.date))
 </script>
 
 <template>
@@ -26,8 +31,8 @@ defineProps<{
       <p v-if="excerpt" class="card-excerpt">{{ excerpt }}</p>
       <div class="card-meta">
         <span v-if="author" class="card-author">{{ author }}</span>
-        <span v-if="author && date" class="card-sep">&middot;</span>
-        <span v-if="date" class="card-date">{{ date }}</span>
+        <span v-if="author && displayDate" class="card-sep">&middot;</span>
+        <span v-if="displayDate" class="card-date">{{ displayDate }}</span>
       </div>
     </div>
   </article>

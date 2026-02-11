@@ -2,7 +2,7 @@
 aside: false
 title: "Iron Deficiency and Hair Loss: What the Research Shows"
 category: Research
-date: December 2025
+date: 2025-12-01
 author: Dr. Sarah Chen
 lead: "Iron deficiency is the most common nutritional deficiency worldwide — and one of the most underdiagnosed causes of hair loss. Here's what the current evidence tells us about the connection."
 ---

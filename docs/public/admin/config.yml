@@ -3,6 +3,8 @@ backend:
   repo: hairburst/hairvits
   branch: main
 
+publish_mode: editorial_workflow
+
 media_folder: /docs/public/img
 public_folder: /img
 
@@ -13,12 +15,19 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "md"
+    summary: "{{title}} — {{category}} — {{date}}"
+    sortable_fields:
+      fields: ["title", "date", "category"]
+    view_filters:
+      - { label: "Reviews", field: "category", pattern: "Review" }
+      - { label: "Comparisons", field: "category", pattern: "Comparison" }
+      - { label: "Roundups", field: "category", pattern: "Roundup" }
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Review", "Comparison", "Roundup"], default: "Review" }
-      - { label: "Date", name: "date", widget: "string", hint: "e.g. January 2026" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }
@@ -31,12 +40,20 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "md"
+    summary: "{{title}} — {{category}} — {{date}}"
+    sortable_fields:
+      fields: ["title", "date", "category"]
+    view_filters:
+      - { label: "Explainers", field: "category", pattern: "Explainer" }
+      - { label: "Research", field: "category", pattern: "Research" }
+      - { label: "Deep Dives", field: "category", pattern: "Deep Dive" }
+      - { label: "Meta-Analyses", field: "category", pattern: "Meta-Analysis" }
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Explainer", "Research", "Deep Dive", "Meta-Analysis"], default: "Explainer" }
-      - { label: "Date", name: "date", widget: "string", hint: "e.g. January 2026" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }
@@ -49,12 +66,21 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "md"
+    summary: "{{title}} — {{category}} — {{date}}"
+    sortable_fields:
+      fields: ["title", "date", "category"]
+    view_filters:
+      - { label: "Guides", field: "category", pattern: "Guide" }
+      - { label: "Trends", field: "category", pattern: "Trend" }
+      - { label: "Investigations", field: "category", pattern: "Investigation" }
+      - { label: "Routines", field: "category", pattern: "Routine" }
+      - { label: "Ingredients", field: "category", pattern: "Ingredient" }
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Guide", "Trend", "Investigation", "Routine", "Ingredient"], default: "Guide" }
-      - { label: "Date", name: "date", widget: "string", hint: "e.g. January 2026" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "MMMM YYYY", time_format: false }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Lead", name: "lead", widget: "text", hint: "One or two sentence summary shown below the title" }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Hero image displayed at the top of the article and on cards" }

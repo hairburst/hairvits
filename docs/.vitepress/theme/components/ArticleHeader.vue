@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useData } from 'vitepress'
+import { formatDate } from '../utils/formatDate'
 
 const { frontmatter } = useData()
+const displayDate = computed(() => formatDate(frontmatter.value.date))
 </script>
 
 <template>
@@ -9,7 +12,7 @@ const { frontmatter } = useData()
     <div class="article-meta" v-if="frontmatter.category || frontmatter.author || frontmatter.date">
       <span v-if="frontmatter.category" class="category">{{ frontmatter.category }}</span>
       <span v-if="frontmatter.category && (frontmatter.date || frontmatter.author)" class="separator">|</span>
-      <span v-if="frontmatter.date">{{ frontmatter.date }}</span>
+      <span v-if="displayDate">{{ displayDate }}</span>
       <span v-if="frontmatter.date && frontmatter.author" class="separator">|</span>
       <span v-if="frontmatter.author">By {{ frontmatter.author }}</span>
     </div>

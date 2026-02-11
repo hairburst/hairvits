@@ -2,7 +2,7 @@
 aside: false
 title: "The Minimalist Hair Care Routine That Works"
 category: Guide
-date: January 2026
+date: 2026-01-01
 author: Mia Torres
 lead: "In an industry that profits from complexity, the most effective hair care routine might be the simplest one. Dermatologists and stylists increasingly agree: three steps are enough."
 ---

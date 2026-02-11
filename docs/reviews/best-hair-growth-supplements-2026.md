@@ -1,7 +1,7 @@
 ---
 title: 'Best Hair Growth Supplements of 2026: An Evidence-Based Review'
 category: Roundup
-date: February 2026
+date: 2026-02-01
 author: HairVits Editorial
 lead: We spent six months evaluating the UK's most popular hair supplements against clinical data, ingredient quality, and real-world results. One formula stood above the rest.
 aside: false

@@ -2,7 +2,7 @@
 aside: false
 title: "Collagen Supplements: Beauty Staple or Marketing Myth?"
 category: Investigation
-date: November 2025
+date: 2025-11-01
 author: Dr. James Liu
 lead: "Ingestible collagen is a billion-dollar industry built on the promise of better skin, hair, and nails. We examined what the clinical evidence actually supports — and where the claims outrun the science."
 ---
