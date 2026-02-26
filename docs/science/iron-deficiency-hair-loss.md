@@ -87,3 +87,5 @@ Ferritin is also an acute phase reactant — it rises during inflammation, infec
 ***
 
 _This article summarises current research and does not constitute medical advice. Consult a healthcare provider for personalised evaluation._
+
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
