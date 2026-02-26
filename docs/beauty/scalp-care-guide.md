@@ -73,4 +73,4 @@ Scalp care isn't a fad — it's a correction. Treating the scalp as an extension
 
 ***
 
-_Elena Marchetti covers beauty trends and the cosmetics industry for HairVits._
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
