@@ -201,4 +201,4 @@ If you're serious about improving your hair health, invest in a formula that's b
 
 ***
 
-_Disclaimer: This article contains affiliate links to products we genuinely recommend. We may earn a commission when you purchase through these links, at no additional cost to you. All opinions and recommendations are our own based on thorough research and evaluation._
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
