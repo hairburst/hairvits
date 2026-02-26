@@ -78,4 +78,4 @@ Good hair care isn't about having the most products — it's about using the rig
 
 ***
 
-_Mia Torres is a beauty editor specialising in evidence-based skincare and hair care._
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
