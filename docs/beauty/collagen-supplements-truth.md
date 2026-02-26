@@ -90,4 +90,4 @@ The collagen industry has built a compelling brand narrative, but for hair speci
 
 ***
 
-_This article represents the HairVits editorial team's assessment of current evidence. It is not sponsored content._
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
