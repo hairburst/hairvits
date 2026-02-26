@@ -75,3 +75,5 @@ The most honest recommendation: if you're concerned about hair health, a blood t
 ***
 
 _Dr. James Liu is a biochemist specialising in micronutrient metabolism. This article has been peer-reviewed by the HairVits Science Review Board._
+
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
