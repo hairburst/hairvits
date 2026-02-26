@@ -114,4 +114,4 @@ Women who are primarily looking for faster growth of already-healthy hair may fi
 
 Advanced+ Hair Formula is available exclusively at [hairburst.com](https://www.hairburst.com/products/advanced-hair-formula?variant=55516134113662&selling_plan=710476792190). The three-month subscription plan offers the best balance of value and commitment, with a free Bond Repair Duo and full money-back guarantee included.
 
-_This article contains affiliate links. HairVits may earn a commission on purchases made through these links, at no additional cost to you. All opinions are our own and based on independent evaluation. Individual results may vary. Consult your healthcare provider before starting any new supplement regimen._
+**Disclaimer:** This article is written by the Hairburst editorial team and reflects our own opinions. It is published on partner sites, including HairVits, for commercial and promotional purposes.
