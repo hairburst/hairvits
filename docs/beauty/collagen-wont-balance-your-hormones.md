@@ -8,8 +8,6 @@ lead: "Collagen supplements have become one of the most popular additions to any
 image: /img/collagen-vs-hormones-hero.png
 ---
 
-![Turmeric and collagen powders side by side](/img/collagen-vs-hormones-hero.png)
-
 ## The collagen boom and what it's missing
 
 Walk into any pharmacy or health food store in 2026 and you will find entire shelves dedicated to collagen supplements. Powders, capsules, gummies, drinks — the format barely matters because the marketing message is always the same: take collagen, get better hair. It is a compelling promise, and not an entirely dishonest one. Collagen does play a role in hair health. The problem is that for most women experiencing hair loss, it is a very small role in a much larger story.
